@@ -1,0 +1,70 @@
+# python study
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.pytype/
+ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data and model artifacts
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.ckpt
+checkpoints/
+models/
+artifacts/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+
+# OS metadata
+Thumbs.db
+
+# Project notes
+notes/

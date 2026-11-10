@@ -1,0 +1,29 @@
+# 코디세이 AI 심화 단계 (A1-1 ~ A6-2) 전체 venv용
+
+# ipynb 실행 환경 공통
+jupyter
+notebook
+ipykernel
+
+# 공통 (A1-1 데이터분석)
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.12
+plotly>=5.18
+
+# A3-1 / A3-2 — CV 문서스캐너, 영상추적
+opencv-python>=4.9
+
+# A4-1 / A4-2 — NLP TF-IDF, 정규식·감성분석
+scikit-learn>=1.4
+transformers>=4.40
+torch>=2.2
+
+# A5-1 / A5-2 — ML 신용·연체, 군집·SHAP
+# (scikit-learn은 위에서 설치됨)
+shap>=0.45
+
+# A6-1 / A6-2 — DL 미니 프레임워크, 전이학습·RNN
+# A6-1은 numpy만으로 직접 구현, A6-2부터 torch 본격 사용 (torch는 위에서 설치됨)
+torchvision>=0.17

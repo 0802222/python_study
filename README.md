@@ -24,27 +24,17 @@
 
 이 프로젝트는 `.venv` 가상환경을 기준으로 동작합니다.
 
-### 가상환경 생성
+### 가상환경 생성 및 활성화
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate # 종료할 때: deactivate
 ```
 
 ### 패키지 설치
 
 ```bash
 python -m pip install -r requirements.txt
-```
-
-## 실행 예시
-
-```bash
-python numpy/01_array_basic.py
-python pandas/01_series_dataframe.py
-python matplotlib/01_line_plot.py
-python scikit_learn/01_linear_regression.py
-python deep_learning/01_pytorch_tensor.py
 ```
 
 ## 학습 순서
